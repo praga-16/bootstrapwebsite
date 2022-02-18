@@ -586,272 +586,168 @@ Publish the website in the given URL.
 </html>
 ~~~
 ### About Us Page HTML :
-~~~
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bureau of Police Research And Development</title>
-    <link rel="icon" href="./img/logobprd.png" type="image/x-icon" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-    </script>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>BPRD-Website</title>
+  <!-- Favicons -->
+  <link href="./img/bprd.png" rel="icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- CSS File -->
+  <link href="./vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="./vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="./vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="./vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="./vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="./css/style.css" rel="stylesheet">
 </head>
+
 <body>
-    <div class="container-fluid bg-light text-black text-center mt-3 mb-3">
-        <img src="title.png" class="img-fluid" style="width:100%; height:200px;" alt="BPR&D">
-    </div>
-    <div class="row">
-        <div class="col mt-3 mb-3" style="background-color:#e6f9ff">
-           <!-- ======= Left Side icons ======= -->
-           <a class="rounded-circle float-start mt-1 mb-1"  href="https://twitter.com/bprdindia?lang=en" target="_blank">
-            <img src="twitter.png" style="width:30px;height:30px" alt="Twitter">
-            </a>
-            <a class="rounded-circle float-start mt-1 mb-1"  href="https://www.facebook.com/officialBPRDIndia" target="_blank">
-            <img src="facebook.png" style="width:30px;height:30px" alt="Facebook">
-            </a>
-            <a class="rounded-circle float-start mt-1 mb-1"  href="https://www.youtube.com/channel/UCGhrg_cnnGuhwXfCU16kYow" target="_blank">
-            <img src="yt.png" style="width:30px;height:30px" alt="Youtube">
-            </a>
-            <a class="rounded-circle float-start mt-1 mb-1"  href="https://www.instagram.com/bprdindia/" target="_blank">
-            <img src="insta.png" style="width:30px;height:30px" alt="Instagram">
-            </a>
 
-            <!-- ======= Right Side icons ======= -->
-            <a class="rounded float-end ms-1 me-1" href="https://rashtragaan.in/" target="_blank"> 
-            <img src="02.png" alt="SingtheNationalAnthem"  style="width:150PX; height:30px;">
-            </a>
-            <a class="rounded float-end mt-1 mb-1 ms-1 me-1" href="https://eustad.in" target="_blank"> 
-            <img src="inpo.png" alt="e-Ustad" style="width:150PX; height:30px;">
-            </a>
-            <a class="rounded float-end mt-1 mb-1 ms-1 me-1" href="https://bprd.nic.in/SmartPolice1.aspx" target="_blank"> 
-            <img src="04.png" alt="DataOnPoliceOrganization" style="width:150PX; height:30px;">
-            </a>
-            <a class="rounded float-end mt-1 mb-1 ms-1 me-1" href="https://www.youtube.com/channel/UCN2fiHd5IFWtNyu-vpAkeEA/videos" target="_blank"> 
-            <img src="01.png" alt="PoliceAurSeva" style="width:150PX; height:30px;">
-            </a>
-        </div>
+  <!-- ======= Top Bar ======= -->
+  <section id="topbar" class="d-flex align-items-center">
+    <div class="container d-flex justify-content-center justify-content-md-between">
+      <div class="contact-info d-flex align-items-center">
+        <i class="bi bi-envelope-fill"></i><a href="mailto:dg.brpd.nic.in">dg.brpd.nic.in</a>
+        <i class="bi bi-phone-fill phone-icon"></i>+91-11-26781312
+      </div>
+      <div class="social-links d-none d-md-block">
+        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
+      </div>
     </div>
-</div>
-    </div>
+  </section>
 
-    <!-- ======= Navigation Tabs ======= -->
-    <ul class="nav nav-tabs nav-justified">
-        <li class="nav-item">
-          <a class="nav-link" href="homepage.html">Home</a>
-        </li>
-        <li class="nav-item active">
-            <div class="dropdown">
-                <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown">
-                    About Us >> Evolution 
-                </button>           
-                <ul class="dropdown-menu">
-                    <li><a class="dropdown-item active" href="#">Evolution Of BPR&D</a></li>
-                    <li><hr class="dropdown-divider"></hr></li>
-                    <li><a class="dropdown-item" href="#">Awards/Medals</a></li>
-                    <li><hr class="dropdown-divider"></hr></li>
-                    <li><a class="dropdown-item" href="#">Work Allocation</a></li>
-                    <li><hr class="dropdown-divider"></hr></li>
-                    <div class="dropdown dropend">
-                        <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown">
-                            Organization 
-                        </button>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Organization chart</a></li>
-                        <li><hr class="dropdown-divider"></hr></li>
-                        <li><a class="dropdown-item" href="#">Division and Responsibilities</a></li>
-                        <li><hr class="dropdown-divider"></hr></li>
-                    </ul>
-                    </div>
-                    <div class="dropdown dropend">
-                        <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown">
-                            Draft Legislation 
-                        </button>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Draft Model Police Bill</a></li>
-                            <li><hr class="dropdown-divider"></hr></li>
-                            <li><a class="dropdown-item" href="#">Draft Legislation On Mutual Legal Assisstance In Cr</a></li>
-                            <li><hr class="dropdown-divider"></hr></li>
-                        </ul>
-                    </div>
-                    <li><a class="dropdown-item" href="#">Contact US</a></li>
-                    <li><hr class="dropdown-divider"></hr></li>
-                    <li><a class="dropdown-item" href="#">Citizen's Corner</a></li>
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex align-items-center">
+    <div class="container d-flex align-items-center">
+      <a href="index.html" class="logo me-auto"><img src="./img/logo.png" alt="" class="img-fluid"></a>
+      <h1 class="logo me-auto" style="padding-right: 490px;"><a href="index.html">BPRD</a></h1>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="./index.html">Home</a></li>
+          <li class="dropdown"><a href="./aboutus.html"><span>About Us</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="./aboutus.html">Evolution of BPRD</a></li>
+              <li><a href="#">Awards/Medals</a></li>
+              <li><a href="#">Work Allocation</a></li>
+              <li class="dropdown"><a href="#"><span>View More</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="#">Organization</a></li>
+                  <li><a href="#">Draft Legislation</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                  <li><a href="#">Citizen's Corner</a></li>
                 </ul>
-            </div>
-        </li>
-        <li class="nav-item">
-            <div class="dropdown">
-                <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown">
-                    Training
-                </button>
-            </div>
-        </li>
-        <li class="nav-item">
-            <div class="dropdown">
-                <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown">
-                    Research & CA
-                </button>
-            </div>
-        </li>
-        <li class="nav-item">
-            <div class="dropdown">
-                <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown">
-                    NPM
-                </button>
-            </div>
-        </li>
-        <li class="nav-item">
-            <div class="dropdown">
-                <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown">
-                    SPD
-                </button>
-            </div>
-        </li>
-        <li class="nav-item">
-            <div class="dropdown">
-                <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown">
-                    Admin
-                </button>
-            </div>
-        </li>
-        <li class="nav-item">
-            <div class="dropdown">
-                <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown">
-                    SPC
-                </button>
-            </div>
-        </li>
-        <li class="nav-item">
-            <div class="dropdown">
-                <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown">
-                    SP Conf. & Police Expo
-                </button>
-                <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="">Photo Gallery Police Expo 2020</a></li>
-                    <li><hr class="dropdown-divider"></hr></li>
-                </ul>
-            </div>
-        </li>
-        <li class="nav-item">
-            <div class="dropdown">
-                <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown">
-                    Gallery 
-                </button>
-                <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="">Photo Gallery</a></li>
-                    <li><hr class="dropdown-divider"></hr></li>
-                </ul>
-            </div>
-        </li>
-        <li class="nav-item">
-            <div class="dropdown">
-                <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown">
-                    Publications/Reports
-                </button>
-            </div>
-        </li>
-        <li class="nav-item">
-            <div class="dropdown">
-                <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown">
-                   DOPO
-                </button>
-            </div>
-        </li>
-    </ul>
-    <div class="container-fluid mt-2 mb-2 ms-2 me-2" style="background-color:#dbdbdb;">
-        <div class="row">
-            <div class="col-sm mt-2 mb-2 me-2 ms-2 text-center">
-                <table class="table text-center">
-                    <thead>
-                      <tr>
-                        <th style="font-size: larger;">Evolution of the BPR&D</th>
-                      </tr>
-                    </thead>
-                </table>
-                <table class="table text-center">
-                    <thead>
-                        <tr>
-                            <th style="font-size:medium; font: 1em sans-serif;"><strong>CREATION</strong><br>
-                                1. The Government of India vied Resolution No.8/136/68-P.I (Pers.I) dated 28.08.1970 formally 
-                                established the Bureau of Police Research and Development (BPR&D), under the Ministry of Home 
-                                Affairs giving a new orientation to then existing Police Research and Advisory Council (1966) 
-                                for the following reasons and with the primary objective of modernization of police force:<br>
-
-                                1.    To take direct and active interest in the issues<br>
-
-                                2.    To promote a speedy and systematic study of the police problems<br>
-
-                                3.    To apply science and technology in the methods and techniques used by police.<br>
-
-                                In addition and as a secondary, the Resolution mandated an advisory role also for the Bureau.<br>
-                                2. The Bureau was established with the following two divisions initially with a well laid out charter
-                                 of duties<br>
-                                1.    Research, Statistics and Publication<br>
-                                2.    Development<br>
-                                3. Training is a vital and growing requirement to improve the competency of police forces in the country.
-                                 The Gore-Committee (1971) set up by the Government of India studied the training aspects of police and gave
-                                  several recommendations. The government of India in accepting its recommendations created a Training Division
-                                   (1973) in addition to the two divisions already existing to function under the Bureau.<br>
-                                4. The forensic science services uncompromising & Geese under the Development Division grew over 
-                                a period and a separate Directorate of Forensic Sciences under the BPR&D came into existence in 1983.<br>
-                                5. Further in 1995 Government of India decided to entrust issues relating to Correctional Administration 
-                                Work to the BPR&D so that problems relating to prisons and implementation of deemed prison reforms can be
-                                 taken up by the Bureau in a cohesive manner. This set up is operating out of the existing manpower resources.<br>
-                                 6. During the year 2008, the Government of India further decided to create National Police Mission under the 
-                                 administrative control of BPR&D to transform the police forces in the country into effective instrument for 
-                                 maintenance of internal security and facing the challenges in future, by equipping them with the necessary 
-                                 material, intellectual and organizational resources.<br>
-                            </th>
-                        </tr>
-                    </thead>
-                </table>
-                <table class="table text-center">
-                    <thead>
-                        <tr>
-                            <th style="font-size:medium; font: 1em sans-serif;"><strong>SEPARATION</strong><br>
-                                1.    Though the Institute of Criminology and Forensic Science (ICFS) was established under 
-                                the overall supervision and guidance of BPR&D as part of the same exercise, it was allowed to 
-                                function as a separate entity in 1976; since the ultimate objective of setting up the Institute 
-                                was to develop a full-fledged academic institution for furthering studies in Criminology and 
-                                forensic science. The same which has been re-christened in the year 1991 is now functioning as 
-                                Lok Nayak Jai Prakash Narayan (LNJN), National Institute of Criminology and Forensic Science 
-                                from 1982. The institute provides training courses for officers of the criminal justice system 
-                                in the two subjects i.e. Criminology and Forensic Science and carries out research.<br>
-                                2.    Growth dynamics took over and the need to specialize in each area arose. The National 
-                                Police Commission (1977) also recommended certain measures requiring implementation. Simultaneously,
-                                 technological innovations particularly computers held promises of support to many areas of crime 
-                                 control and crime detection besides processing statistical data for the purpose of analysis. 
-                                 The Government of India, therefore, decided to establish a National Crime Records Bureau in 1986 
-                                 build another Resolution and entrusted statistics and publications work of the Research Division 
-                                 to the newly constituted Bureau along with the plans for their computerization.<br>
-                                 3.    In an identical move brought about by compulsions of growth, the Government of India decided 
-                                 to give an independent status to the Forensic Science Division by creating a Forensic Science 
-                                 Directorate having an autonomous status under the direct control of the Ministry of Home Affairs.<br>
-                            </th>
-                        </tr>
-                    </thead>
-                </table>
-                <p class="float-end" style="font-size: large;"> Last Updated On: 03/01/2019</p>
-            </div>
-        </div>
+              </li>
+            </ul>
+            <li class="dropdown"><a href="./spc.html"><span>SPC</span> <i class="bi bi-chevron-down"></i></a>
+              <ul>
+                <li><a href="./spc.html">Student Police Cadet Programme</a></li>
+                <li><a href="#">SPC Web</a></li>
+              </ul>
+          <li><a class="nav-link scrollto " href="./index.html#portfolio">Gallery</a></li>
+          <li><a class="nav-link scrollto" href="#team">Training</a></li>
+          <li class="dropdown"><a href="#"><span>View More</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">Research & CA</a></li>
+              <li><a href="#">Modernization</a></li>
+              <li><a href="#">NPM</a></li>
+              <li><a href="#">SPD</a></li>
+              <li><a href="#">Admin</a></li>
+              <li><a href="#">SP Conf. & Police Expo</a></li>
+              <li><a href="#">Publication/ Reports</a></li>
+              <li><a href="#">DOPO</a></li>
+            </ul>
+          </li>
+          <li><a class="getstarted scrollto" href="./index.html#contact">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
     </div>
-    <!-- ======= Footer ======= -->
-    <footer id="footer">
-        <div class="container-fluid rounded bg-light p-2 text-center">
-            <div class="copyright">
-                &copy; Copyright <strong><span>BPRD</span></strong>. All Rights Reserved
-            </div>
-            <div class="credits">
-                Designed by <a href="https://bootstrapmade.com/">HARSHAVARDHINI M</a>
-            </div>
+  </header><!-- End Header -->
+  
+  <!-- ======= About Us Section ======= -->
+<section id="about" class="about">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>About Us</h2>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-3 order-1 order-lg-1">
+          <div class="list-group">
+            <button type="button" class="list-group-item list-group-item-action active">Evolution of BPRD</button>
+            <button type="button" class="list-group-item list-group-item-action">Awards/Medals</button>
+            <button type="button" class="list-group-item list-group-item-action">Work Allocation</button>
+            <button type="button" class="list-group-item list-group-item-action">Organization</button>
+            <button type="button" class="list-group-item list-group-item-action">Draft Lefislation</button>
+            <button type="button" class="list-group-item list-group-item-action">Contact Us</button>
+            <button type="button" class="list-group-item list-group-item-action">Citizen's Corner</button>
+          </div>
         </div>
-    </footer>
+        <div class="col-lg-9 pt-4 pt-lg-0 order-2 order-lg-1 content">
+          <h3>Evolution of BPRD</h3>
+          <p class="fst-italic">
+              <dl>
+                <dt>CREATION</dt>
+                <br>1.The Government of India vied Resolution No.8/136/68-P.I (Pers.I) dated 28.08.1970 formally established the Bureau of Police Research and Development (BPR&D), under the Ministry of Home Affairs giving a new orientation to then existing Police Research and Advisory Council (1966) for the following reasons and with the primary objective of modernization of police force:
+                <dd>1.1. To take direct and active interest in the issues</dd>
+                <dd>1.2. To promote a speedy and systematic study of the police problems,</dd>
+                <dd>1.3. To apply science and technology in the methods and techniques used by police.</dd>
+                In addition and as a secondary, the Resolution mandated an advisory role also for the Bureau.<br>
+                2. The Bureau was established with the following two divisions initially with a well laid out charter of duties
+                <dd>2.1. Research, Statistics and Publication</dd>
+                <dd>2.2. Development</dd>
+                <dd>2.3. Training is a vital and growing requirement to improve the competency of police forces in the country. The Gore-Committee (1971) set up by the Government of India studied the training aspects of police and gave several recommendations. The government of India in accepting its recommendations created a Training Division (1973) in addition to the two divisions already existing to function under the Bureau.</dd>
+                <dd>2.4. The forensic science services uncompromising & Geese under the Development Division grew over a period and a separate Directorate of Forensic Sciences under the BPR&D came into existence in 1983.</dd>
+                <dd>2.5. Further in 1995 Government of India decided to entrust issues relating to Correctional Administration Work to the BPR&D so that problems relating to prisons and implementation of deemed prison reforms can be taken up by the Bureau in a cohesive manner. This set up is operating out of the existing manpower resources.</dd>
+                <dd>2.6. During the year 2008, the Government of India further decided to create National Police Mission under the administrative control of BPR&D to transform the police forces in the country into effective instrument for maintenance of internal security and facing the challenges in future, by equipping them with the necessary material, intellectual and organizational resources.</dd>
+                <dt>SEPARATION</dt>
+                <br>1.Though the Institute of Criminology and Forensic Science (ICFS) was established under the overall supervision and guidance of BPR&D as part of the same exercise, it was allowed to function as a separate entity in 1976; since the ultimate objective of setting up the Institute was to develop a full-fledged academic institution for furthering studies in Criminology and forensic science. The same which has been re-christened in the year 1991 is now functioning as Lok Nayak Jai Prakash Narayan (LNJN), National Institute of Criminology and Forensic Science from 1982. The institute provides training courses for officers of the criminal justice system in the two subjects i.e. Criminology and Forensic Science and carries out research.
+                <dd>2. Growth dynamics took over and the need to specialize in each area arose. The National Police Commission (1977) also recommended certain measures requiring implementation. Simultaneously, technological innovations particularly computers held promises of support to many areas of crime control and crime detection besides processing statistical data for the purpose of analysis. The Government of India, therefore, decided to establish a National Crime Records Bureau in 1986 build another Resolution and entrusted statistics and publications work of the Research Division to the newly constituted Bureau along with the plans for their computerization.</dd>
+                <dd>3. In an identical move brought about by compulsions of growth, the Government of India decided to give an independent status to the Forensic Science Division by creating a Forensic Science Directorate having an autonomous status under the direct control of the Ministry of Home Affairs.</dd>
+              </dl>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section><!-- End About Us Section -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <h3>BPRD</h3>
+      <p>Bureau of Police Research and Development <br> A part of Ministry Of Home</p>
+      <p>This website belongs to "Bureau of Police Research and Development", Ministry of Home Affairs, Govt. Of India Site Designed, Developed and Hosted by National Informatics Centre</p>
+      <div class="social-links">
+        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      </div>
+      <div class="copyright">
+        &copy; Copyright <strong><span>BPRD</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        Designed by <a href="https://bootstrapmade.com/">SUBRAMANIYA PILLAI.B</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <!-- Template Main JS File -->
+  <script src="./js/main.js"></script>
 </body>
 </html>
+
 ~~~
 
 
@@ -867,7 +763,7 @@ Publish the website in the given URL.
 ![doc](https://user-images.githubusercontent.com/93427208/153766217-8cc6aa2e-68fd-4c97-a573-cf5092dec1f4.png)
 
 ### About us: 
-![doc](https://user-images.githubusercontent.com/93427208/153766223-80c03fe0-2d6b-4d45-b23a-51a65e8fd70e.png)
+![doc]()
 
 
 ## Result:
