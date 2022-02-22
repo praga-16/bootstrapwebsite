@@ -1560,5 +1560,3 @@ Publish the website in the given URL.
 ![github logo](s3.jpg)
 ## Result:
 Thus a website is designed using bootstrap framework.
-
-Thus a website is designed using bootstrap framework.
