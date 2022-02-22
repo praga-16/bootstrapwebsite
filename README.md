@@ -1552,7 +1552,7 @@ Publish the website in the given URL.
   <script src="./js/main.js"></script>
 </body>
 </html>
-`````
+~~~
 ## OUTPUT:
 
 ![github logo](s1.jpg)
